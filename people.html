@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>People</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="people.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+</head>
+<body>
+
+    <section>
+
+
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html">Home</a>
+            <a href="history.html">History</a>
+            <a href="people.html">People</a>
+            <a href="food.html">Food</a>
+            <a href="attire.html">Attire</a>
+            <a href="event.html">Event</a>
+            <a href="place.html">Place</a>
+            <a href="map.html">Maps</a>
+            <a href="contact.html">Contact</a>
+        
+          
+          </div>
+        <div id="main">
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+          </div>
+          
+          <script>
+          function openNav() {
+            document.getElementById("mySidenav").style.width = "230px";
+            document.getElementById("main").style.marginLeft = "230px";
+            document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+          }
+          
+          function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.marginLeft= "0";
+            document.body.style.backgroundColor = "#DBC59E";
+          }
+          </script>
+
+    <section id="people">
+        <div class="title-text">
+            <h1>People of Bidayuh</h1>
+            <header>
+              <img src="Picture/_Logo.png" alt="logo" width="90" height="100"><h2>PEOPLE OF BIDAYUH</h2>
+          </header>
+          
+        </div>
+        
+        <div class="box">
+            <div class="single-people">
+                <div class="row">
+                    <div class="column">
+                    <img src="PICTURE/bidayuh1.jpeg" alt="bidayuh" style=width:100%;">
+                </div>
+        <div class="column">
+            <img src="PICTURE/bidayuh2.jpg" alt="bidayuh" style="width:100%;">
+        </div>
+        
+        </div>
+        <div class="people-text">
+            <p>There is no concreate proof as to the origins of the Bidayuh, but theories abound. It is generally accepted though, that the Bidayuh were one of the firs indegenous natives, possibly even the very first, immigrating from Southwestern Kalimantan. This tribal community is believed to have originated from Gajing Mountain in West Kalimantan, Indonesia, before slowly migrating north to the Lundu.
+            </p>
+            <br>
+            <p>Bidayuh is the collective name of 28 main tribes in Sarawak and Borneo,who are the forth largest ethnic group in the region behind the Iban, Chinese and the Malay with over 200,000 people, or 8% of Sarawak's population. This collective group of smaller tribes are broadly similar in culture and language. Their collective name "Land Dayaks", was used during the mid-19th century, during the reign of James Brooke, the first White Rajah of Sarawak.
+            </p>
+            <br>
+            <p>Within the Bidayuh community, there are many sub-communities as well, with each speaking their own dielect that is not necessarily mutually intelligence, abd in these situations English and Malay are used as common languages. Strangeky enough, Salako and Lara sub-community of the Bidayuh, mainly found in the Lundu area, the easternmost top of Sarawak, have the almost nothing in common with the other Bidayuh sub-communities, although they classified as Bidayuh by the Malaysian government for political conveniece.
+            </p>
+            <br>
+            <p>The three primary sub-dialects of the language- Jagoi, Serombu, and Singgai- each roughly correlate to the regions around an ancestral mountain and differ significantly form one another. When refering to these dialects, the language is frequently referred to as Bidayuh Jagoi (Bijagoi or Bau-Jagoi) Biro'ih (Serombu), or Bidayuh Singgai (BiSinggai). Bratak, Krokong, and Jagoi are other classifications fpr the Jagoi variety.</p>
+            <br>
+        </div>
+        </div>
+    </section>
+
+    <footer>
+        <ul class="footer-icons">
+          <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+          <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a> </li>
+          <li><a href="#" ><ion-icon name="logo-twitter"></ion-icon></a></li>
+          <li><a href="#"><ion-icon name="mail-outline"></ion-icon></a> </li>
+        </ul>
+      
+          <p>Copyright © 2024</p>
+          <p>Last Updated: 29 June 2024</p>
+          <p>All Rights Reserved.</p>
+        </footer>
+      
+</body>
+</html>

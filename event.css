@@ -1,0 +1,174 @@
+*{
+    font-family: arial, Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #D5B179;
+}
+
+.main {max-width: 1200px;
+    margin: auto;}
+    
+     ul li.activea {background-color: #ffffff;
+         color: #000;}
+
+
+                     .btn{border:1px solid #ffffff;
+                         padding:10px 30px;
+                         color:#f8f8f8;
+                         text-decoration: none;
+                         transition: 0.6s ease;}
+
+                         .btn:hover{
+                             background-color: #ffffff;
+                             color: #000;}
+
+.button {
+position: absolute;
+top: 63%;
+left: 10%;
+transform: translate(-50%, -50%);}
+
+.sidenav {
+height: 100%;
+width: 0;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+background-color: #c7a977;
+overflow-x: hidden;
+transition: 0.5s;
+padding-top: 60px;
+}
+
+.sidenav a {
+padding: 8px 8px 8px 32px;
+text-decoration: none;
+font-size: 25px;
+color: #000000;
+display: block;
+transition: 0.3s;
+}
+
+.sidenav a:hover {
+color: #ffffff;
+}
+
+.sidenav .closebtn {
+position: absolute;
+top: 0;
+right: 25px;
+font-size: 36px;
+margin-left: 50px;
+}
+
+
+header {
+    background-color: #D5B179;
+    color:  #ffffffac;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 2em;
+    font-weight: bold;
+    border-bottom: 3px solid #333;
+}
+
+header img {
+    width: 90px;
+    height: 50;
+    margin-right: 20px;
+    float: right;
+  }
+
+
+.container{
+    height: 80em;
+    display:flex;
+   justify-content: center;
+    align-items: center;
+    gap: 3em;
+    flex-grow: 1;
+    padding: 0 40px;
+}
+
+.gawai {
+    width: 60em;
+    height: 68em;
+    background-color:beige;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.wedding{
+    width: 60em;
+    height: 68em;
+    background-color:beige;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.gawai p{
+    line-height: 25px;
+    color: #535c45;
+}
+
+.gawai img{
+    display: center;
+    width: 50%;
+    padding: 20px;
+}
+
+.wedding  p{
+    line-height: 25px;
+    color: #535c45;
+    padding: 20px;
+}
+
+.wedding img{
+    text-align: center;
+   width: 50%;
+    padding: 20px; 
+}
+
+
+@media(max-width:1200px){
+    .container{
+        height: 100%;
+        flex-direction: column;
+    }
+    .gawai, .wedding{
+        max-width: 80%;
+        padding: 30px;
+    }
+}
+footer {
+    background-color:#c4a576e9;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(30, 30, 30);
+    
+}
+  footer li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+}
+
+footer p {
+text-align: center;
+
+}
+  .footer-icons a {
+    background: #c4a061;
+    color: #efd9b7e9;
+    padding: 15px;
+    border-radius: 50px;
+    display: flex;
+    font-size: 25px;
+  }
+  .footer-icons a:hover {
+    color: #fff;
+  }

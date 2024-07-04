@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="map.css">
+    <link rel="icon" type="image/x-icon" href="favicon-32x32.png">
+    <title>Bau Map</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+</head>
+
+<body>
+
+    <section>
+
+
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="history.html">History</a>
+        <a href="people.html">People</a>
+        <a href="food.html">Food</a>
+        <a href="attire.html">Attire</a>
+        <a href="event.html">Event</a>
+        <a href="place.html">Place</a>
+        <a href="map.html">Maps</a>
+        <a href="contact.html">Contact</a>
+    
+      
+      </div>
+        
+        <div id="main">
+          <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+        </div>
+        
+        <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "230px";
+          document.getElementById("main").style.marginLeft = "230px";
+          document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+          document.getElementById("main").style.marginLeft= "0";
+          document.body.style.backgroundColor = "#D6B198";
+        }
+        </script>
+
+    <header><h1>Bau Maps</h1> </header>
+
+    <p>Town in Malaysia </p>
+
+    <center>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255274.1825698642!2d110.11187244999999!3d1.3811920999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31fb6da2c1c7c7d7%3A0x24a2a25ae476ff2!2sBau%2C%20Sarawak!5e0!3m2!1sen!2smy!4v1719575234570!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </center>
+</div>
+<p><img src="Picture/_Logo.png" alt="logo" width="85px" height="85px"></p>
+</div>
+
+    <footer>
+        <ul class="footer-icons">
+          <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+          <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a> </li>
+          <li><a href="#" ><ion-icon name="logo-twitter"></ion-icon></a></li>
+          <li><a href="#"><ion-icon name="mail-outline"></ion-icon></a> </li>
+        </ul>
+      
+          <p>Copyright © 2024</p>
+          <p>Last Updated: 29 June 2024</p>
+          <p>All Rights Reserved.</p>
+          
+        </footer>
+      
+      
+        </body>
+        </html>

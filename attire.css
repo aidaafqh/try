@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dcc293fb;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.main {max-width: 1200px;
+    margin: auto;}
+    
+     ul li.activea {background-color: #ffffff;
+         color: #000;}
+
+
+                     .btn{border:1px solid #ffffff;
+                         padding:10px 30px;
+                         color:#f8f8f8;
+                         text-decoration: none;
+                         transition: 0.6s ease;}
+
+                         .btn:hover{
+                             background-color: #ffffff;
+                             color: #000;}
+
+.button {
+position: absolute;
+top: 63%;
+left: 10%;
+transform: translate(-50%, -50%);}
+
+.sidenav {
+height: 100%;
+width: 0;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+background-color: #c7a977;
+overflow-x: hidden;
+transition: 0.5s;
+padding-top: 60px;
+}
+
+.sidenav a {
+padding: 8px 8px 8px 32px;
+text-decoration: none;
+font-size: 25px;
+color: #000000;
+display: block;
+transition: 0.3s;
+}
+
+.sidenav a:hover {
+color: #ffffff;
+}
+
+.sidenav .closebtn {
+position: absolute;
+top: 0;
+right: 25px;
+font-size: 36px;
+margin-left: 50px;
+}
+
+header {
+    background-color: #D5B179;
+    color: #ffffffac;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 2em;
+    font-weight: bold;
+    border-bottom: 3px solid #333;
+}
+
+header img {
+    width: 90px;
+    height: 50;
+    margin-right: 20px;
+    float: right;
+  }
+
+img {
+    display: block;
+    margin: 20px auto;
+    border: 5px solid #e2b77b;
+    box-shadow: 0px 0px 10px #333;
+}
+
+h1, h2 {
+    color: #b8a482;
+    text-align: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px #333;
+}
+
+h1 {
+    font-size: 1.8em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+p {
+    max-width: 800px;
+    margin: 10px auto;
+    padding: 0 20px;
+    line-height: 1.6;
+    font-size: 1.1em;
+}
+
+b {
+    color: #eeb361d4;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #333;
+}
+
+footer {
+    background-color:#c4a576e9;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(30, 30, 30);
+    
+}
+  footer li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+}
+
+footer p {
+text-align: center;
+
+}
+  .footer-icons a {
+    background: #c4a061;
+    color: #efd9b7e9;
+    padding: 15px;
+    border-radius: 50px;
+    display: flex;
+    font-size: 25px;
+  }
+  .footer-icons a:hover {
+    color: #fff;
+  }

@@ -1,0 +1,204 @@
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #D5B179;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+body img{
+    width: 90px;
+  height: 100;
+  margin-left: 20px;
+  float: left;
+}
+
+
+            .main {max-width: 1200px;
+               margin: auto;}
+               
+                ul li.activea {background-color: #ffffff;
+                    color: #000;}
+  
+  
+                                .btn{border:1px solid #c4a576e9;
+                                    padding:10px 30px;
+                                    color:#D5B179;
+                                    text-decoration: none;
+                                    transition: 0.6s ease;}
+  
+                                    .btn:hover{
+                                        background-color: #ffffff;
+                                        color: #000;}
+  
+  .button {
+  position: absolute;
+    top: 63%;
+    left: 10%;
+    transform: translate(-50%, -50%);}
+  
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #D5B179;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+      }
+  
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #000000;
+        display: block;
+        transition: 0.3s;
+      }
+      
+      .sidenav a:hover {
+        color: #f1f1f1;
+      }
+      
+      .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+
+/* Header styling */
+header {
+    background: #d7be87f6;
+    color: #835506d9;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+
+/* Form styling */
+.form {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+.form .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form .input-group {
+    margin-bottom: 15px;
+    position: relative;
+    width: 48%;
+}
+
+.form .input-group label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 15px;
+    pointer-events: none;
+    transition: 0.3s;
+    font-size: 14px;
+    color: #999;
+}
+
+.form .input-group input,
+.form .input-group textarea {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.form .input-group input:focus,
+.form .input-group textarea:focus {
+    border-color: #ffffff;
+}
+
+.form .input-group input:focus + label,
+.form .input-group textarea:focus + label,
+.form .input-group input:not(:placeholder-shown) + label,
+.form .input-group textarea:not(:placeholder-shown) + label {
+    top: -20px;
+    left: 10px;
+    font-size: 12px;
+    color: #c7a977;
+    background: #ffffff;
+    padding: 0 5px;
+}
+
+.form .input-group textarea {
+    resize: none;
+    height: 100px;
+}
+
+.form button {
+    display: inline-block;
+    background: #c7a977;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.form button:hover {
+    background: #c7a977;
+}
+
+
+img{
+    text-align: center;
+    text-decoration: none;
+}
+footer {
+    background-color:#c4a576e9;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(30, 30, 30);
+    
+}
+  footer li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+}
+
+footer p {
+text-align: center;
+
+}
+  .footer-icons a {
+    background: #c4a061;
+    color: #efd9b7e9;
+    padding: 15px;
+    border-radius: 50px;
+    display: flex;
+    font-size: 25px;
+  }
+  .footer-icons a:hover {
+    color: #fff;
+  }
